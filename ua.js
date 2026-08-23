@@ -1,0 +1,1 @@
+function parse(ua) { return { isMobile: /mobile/i.test(ua) }; } module.exports = { parse };
